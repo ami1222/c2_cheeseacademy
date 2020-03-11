@@ -1,0 +1,382 @@
+/* ここから下に記載していく */
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* header部分 */
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: left;
+  }
+  .navi {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .navi a {
+    font-size: 21px;
+    margin: 50px 0 50px 50px;
+    color: black;
+  }  
+  .navi a:hover {
+    color: tomato;
+    font-weight: bold;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+
+/* mainvisual部分 */
+    .mainvisual {
+      background-image: url(../img/mainbg.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+    }
+
+    .mainvisual_title {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      padding: 200px 0 30px;
+    }
+    .mainvisual_subtitle {
+      text-align: center;
+      color: white;
+      font-size: 30px;
+      padding-bottom: 100px;
+    }
+
+/* about部分 */
+    .about {
+      text-align: center;
+    }
+    .about h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffd61a;
+      margin-top: 60px;
+    }
+
+    .about h2.subtitle {
+      font-size: 18px;
+      margin: 30px auto 60px;
+    }
+    .a1 {
+      font-size: 16px;
+      margin: 60px;
+    }
+    .a2 {
+      font-size: 16px;
+      line-height: 30px;
+      margin: 40px auto ;
+    }
+    .a3 {
+      font-size: 16px;
+    }
+    .a4 {
+      font-size: 16px;
+      margin: 40px 0 80px 0;
+      line-height: 30px;
+    }
+    .imgbox {
+      display: flex;
+      justify-content: center;
+    }
+    .imgbox p img {
+      width: 100%;
+    }
+
+  /* course部分 */
+    .course {
+      text-align: center;
+    }
+    .course h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 60px 0 30px;
+    }
+    .c1 {
+      font-size: 16px;
+      margin-bottom: 60px;
+      line-height: 30px;
+    }
+    .course1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #fafafa;
+    }
+    .course1 img {
+      width: 600px;
+      height: auto;
+    }
+    .course1 h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      margin: 100px auto 40px 50px;
+    }
+    .course1 h2 {
+      font-size: 16px;
+      text-align: left;
+      line-height: 30px;
+      margin-right: 120px;
+      margin-left: 50px;
+    }
+    .course2 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      background: #fafafa;
+    }
+    .course2 img {
+      width: 600px;
+      height: auto;
+    }
+    .course2 h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      margin-top: 100px;
+      margin-bottom: 40px;
+      margin-left: 120px;
+    }
+    .course2 h2 {
+      font-size: 16px;
+      text-align: left;
+      line-height: 30px;
+      margin-left: 120px;
+      margin-right: 45px;
+    }
+    .course3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #fafafa;
+    }
+    .course3 img {
+      width: 600px;
+      height: auto;
+    }
+    .course3 h1 {
+      font-size: 24px;
+      font-weight: bold;
+      text-align: left;
+      margin: 100px 120px 40px 50px;
+    }
+    .course3 h2 {
+      font-size: 16px;
+      text-align: left;
+      line-height: 30px;
+      margin-right: 115px;  
+      margin-left: 50px;
+    }
+   
+/* news部分 */
+    .news {
+      text-align: center;
+    }
+    .news h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 60px 0 30px 0;
+      color: #ffd61a;
+    }
+    .news_subtitle{
+      font-size: 18px;
+      margin: 0 0 60px 0;
+    }
+    .news_box {
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      margin: 0 auto;
+    }
+    .news_box1 {
+      margin-right: 30px;
+    }
+    .news_box2 {
+      margin-right: 30px;
+    }
+    .news_box3 {
+      margin-right: 30px;
+    }
+    .news_date {
+      font-size: 14px;
+      text-align: left;
+      margin: 30px 0 24px;
+    }
+    .news_text {
+      font-size: 14px;
+      text-align: left;
+      line-height: 30px;
+    }
+    .news_box1:hover {
+      border: 2px solid tomato;
+      transform: scale(1.1, 1.1);
+      transition: all 0.3s ease-out;
+      cursor: pointer;
+    }
+    .news_box2:hover {
+      border: 2px solid tomato;
+      transform: scale(1.1, 1.1);
+      transition: all 0.3s ease-out;
+      cursor: pointer;
+    }
+    .news_box3:hover {
+      border: 2px solid tomato;
+      transform: scale(1.1, 1.1);
+      transition: all 0.3s ease-out;
+      cursor: pointer;
+    }
+    .btn1 {
+      font-size: 18px;
+      padding-top: 10px;
+      display: inline-block;
+      color: #ffd61a;
+      border: solid 2px #ffd61a;
+      width: 300px;
+      height: 30px;
+      margin: 60px 0 60px 0;
+    }
+    .btn1:hover {
+      background: #ffd61a;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+
+/* access部分 */
+    .access{
+      text-align: center;
+      background: #fafafa;
+    }
+    .access h1 {
+      font-size: 24px;
+      font-weight: bold;
+      padding: 60px 0 30px 0;
+    }
+    .access_subtitle{
+      font-size: 18px;
+      margin: 0 0 60px 0;
+    }
+    .access iframe{
+      width: 1200px;
+      height: 200px;
+      margin: 0 0 60px 0;
+    }
+    .info {
+      font-size: 12px;
+      line-height: 50px;
+      width: 400px;
+      margin: 0 auto;
+      padding-bottom: 60px;
+    }
+    th {
+      text-align: left;
+    }
+    td {
+      text-align: left;
+      padding-left: 50px;
+    }
+    
+    /* contact部分 */
+    .contact {
+      text-align: center;
+      background-image: url(../img/cheese3.jpg),url(../img/cheese3.jpg);
+      background-position: top, bottom;
+      background-repeat: no-repeat;
+      background-size: 1200px 200px;
+      width: 100%;
+      height: 100%;
+    }
+    .contact h1 {
+      font-size: 24px;
+      font-weight: bold;
+      padding: 60px 0 30px 0;
+    }
+    .formbox {
+      width: 640px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    dl {
+      display: flex;
+      border-bottom: solid 1px #bfbfbf;
+    }
+    .name {
+      border-top: solid 1px #bfbfbf;
+    }
+    dt {
+      width: 225px;
+      text-align: left;
+      border-right: solid 1px #bfbfbf;
+      padding: 8px 24px 8px 16px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    dd {
+      width: 415px;
+      text-align: left;
+      padding: 8px 0 8px 8px; 
+    }
+    input[type="text"] {
+      width: 328px;
+      height: 36px;
+    }
+    .trigger select {
+      width: 328px;
+      height: 36px;
+    }
+    dd span {
+      line-height: 12px;
+      font-size: 12px;
+    }
+    input[type="checkbox" ] {
+      margin: 5px 5px 5px 0;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+    textarea {
+      width: 328px;
+      height: 100px;
+      vertical-align: top;
+    }
+    
+    .btn2 {
+      font-size: 18px;
+      padding: 15px;
+      display: inline-block;
+      color: #ffd61a;
+      border: solid 2px #ffd61a;
+      width: 300px;
+      margin: 30px 0 140px 0;
+    }
+    
+    .btn2:hover {
+      background: #ffd61a;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+
+  /* footer */
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      background-color: #707070;
+    }
+    .footer-text {
+      color: #fafafa;
+      font-size: 16px;
+    }
+    
+  
